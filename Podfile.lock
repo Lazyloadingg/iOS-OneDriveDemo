@@ -1,0 +1,40 @@
+PODS:
+  - ADAL (1.2.10)
+  - Base32 (1.1.2)
+  - OneDriveSDK (1.3.0):
+    - OneDriveSDK/Auth (= 1.3.0)
+    - OneDriveSDK/Common (= 1.3.0)
+    - OneDriveSDK/Extensions (= 1.3.0)
+    - OneDriveSDK/Implementations (= 1.3.0)
+    - OneDriveSDK/OneDriveCoreSDK (= 1.3.0)
+  - OneDriveSDK/Auth (1.3.0):
+    - ADAL (~> 1.2)
+    - Base32 (~> 1.1)
+    - OneDriveSDK/Common
+  - OneDriveSDK/Common (1.3.0)
+  - OneDriveSDK/Extensions (1.3.0):
+    - OneDriveSDK/Auth
+    - OneDriveSDK/Implementations
+    - OneDriveSDK/OneDriveCoreSDK
+  - OneDriveSDK/Implementations (1.3.0):
+    - OneDriveSDK/Common
+  - OneDriveSDK/OneDriveCoreSDK (1.3.0):
+    - OneDriveSDK/Common
+
+DEPENDENCIES:
+  - OneDriveSDK (~> 1.3.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ADAL
+    - Base32
+    - OneDriveSDK
+
+SPEC CHECKSUMS:
+  ADAL: f2eb2158b9bcd2c8416ff2d026c176b98ea6651f
+  Base32: 163c298644d184e89ca4e00a996bad6bf5166390
+  OneDriveSDK: 90ab8781f0992c37d96b68cc340585f5cf36701f
+
+PODFILE CHECKSUM: 3c891d2849b11f08a3225f3864c81733eeb5f22d
+
+COCOAPODS: 1.5.3

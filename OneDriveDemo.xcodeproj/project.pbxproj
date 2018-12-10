@@ -1,0 +1,733 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25BC8BFCBCD09C6B88DA90E8 /* libPods-OneDriveDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 746F7B63BE7F6BEA17BC1CAD /* libPods-OneDriveDemoTests.a */; };
+		2C074DC1CE2939744957E6F9 /* libPods-OneDriveDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DAE639971213B76A2867D23 /* libPods-OneDriveDemoUITests.a */; };
+		C05DD4B421AE6A7C005FE23A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C05DD4B321AE6A7C005FE23A /* AppDelegate.m */; };
+		C05DD4B721AE6A7D005FE23A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C05DD4B621AE6A7D005FE23A /* ViewController.m */; };
+		C05DD4BA21AE6A7D005FE23A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C05DD4B821AE6A7D005FE23A /* Main.storyboard */; };
+		C05DD4BC21AE6A7E005FE23A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C05DD4BB21AE6A7E005FE23A /* Assets.xcassets */; };
+		C05DD4BF21AE6A7E005FE23A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C05DD4BD21AE6A7E005FE23A /* LaunchScreen.storyboard */; };
+		C05DD4C221AE6A7E005FE23A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C05DD4C121AE6A7E005FE23A /* main.m */; };
+		C05DD4CC21AE6A7E005FE23A /* OneDriveDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C05DD4CB21AE6A7E005FE23A /* OneDriveDemoTests.m */; };
+		C05DD4D721AE6A7E005FE23A /* OneDriveDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C05DD4D621AE6A7E005FE23A /* OneDriveDemoUITests.m */; };
+		C0F9D21521BE5884001E283C /* textViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F9D21421BE5884001E283C /* textViewVC.m */; };
+		ECE80E949EA554BE2E74E272 /* libPods-OneDriveDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB92BF13E7489174C8B5E684 /* libPods-OneDriveDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C05DD4C821AE6A7E005FE23A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C05DD4A721AE6A7C005FE23A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C05DD4AE21AE6A7C005FE23A;
+			remoteInfo = OneDriveDemo;
+		};
+		C05DD4D321AE6A7E005FE23A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C05DD4A721AE6A7C005FE23A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C05DD4AE21AE6A7C005FE23A;
+			remoteInfo = OneDriveDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15D1CA3BCF42D1E01CC05C83 /* Pods-OneDriveDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneDriveDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OneDriveDemoUITests/Pods-OneDriveDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		49C1A91FCC8FF5BCF0192663 /* Pods-OneDriveDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneDriveDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OneDriveDemo/Pods-OneDriveDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		67214AAEACFC89858B96023D /* Pods-OneDriveDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneDriveDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OneDriveDemoTests/Pods-OneDriveDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		746F7B63BE7F6BEA17BC1CAD /* libPods-OneDriveDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OneDriveDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86F0D64EB7A19FA82B6AB35D /* Pods-OneDriveDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneDriveDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OneDriveDemoUITests/Pods-OneDriveDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		88BB009CC232F5C9B4875147 /* Pods-OneDriveDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneDriveDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-OneDriveDemo/Pods-OneDriveDemo.release.xcconfig"; sourceTree = "<group>"; };
+		893B7A5E50D4431C46C10DAC /* Pods-OneDriveDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneDriveDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OneDriveDemoTests/Pods-OneDriveDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8DAE639971213B76A2867D23 /* libPods-OneDriveDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OneDriveDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB92BF13E7489174C8B5E684 /* libPods-OneDriveDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OneDriveDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C05DD4AF21AE6A7C005FE23A /* OneDriveDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneDriveDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C05DD4B221AE6A7C005FE23A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C05DD4B321AE6A7C005FE23A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C05DD4B521AE6A7D005FE23A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C05DD4B621AE6A7D005FE23A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C05DD4B921AE6A7D005FE23A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C05DD4BB21AE6A7E005FE23A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C05DD4BE21AE6A7E005FE23A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C05DD4C021AE6A7E005FE23A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C05DD4C121AE6A7E005FE23A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C05DD4C721AE6A7E005FE23A /* OneDriveDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OneDriveDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C05DD4CB21AE6A7E005FE23A /* OneDriveDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneDriveDemoTests.m; sourceTree = "<group>"; };
+		C05DD4CD21AE6A7E005FE23A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C05DD4D221AE6A7E005FE23A /* OneDriveDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OneDriveDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C05DD4D621AE6A7E005FE23A /* OneDriveDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneDriveDemoUITests.m; sourceTree = "<group>"; };
+		C05DD4D821AE6A7E005FE23A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0F9D21321BE5884001E283C /* textViewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = textViewVC.h; sourceTree = "<group>"; };
+		C0F9D21421BE5884001E283C /* textViewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = textViewVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C05DD4AC21AE6A7C005FE23A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECE80E949EA554BE2E74E272 /* libPods-OneDriveDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C05DD4C421AE6A7E005FE23A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25BC8BFCBCD09C6B88DA90E8 /* libPods-OneDriveDemoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C05DD4CF21AE6A7E005FE23A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C074DC1CE2939744957E6F9 /* libPods-OneDriveDemoUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15EA3688B6817D8A4F856A4D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				49C1A91FCC8FF5BCF0192663 /* Pods-OneDriveDemo.debug.xcconfig */,
+				88BB009CC232F5C9B4875147 /* Pods-OneDriveDemo.release.xcconfig */,
+				893B7A5E50D4431C46C10DAC /* Pods-OneDriveDemoTests.debug.xcconfig */,
+				67214AAEACFC89858B96023D /* Pods-OneDriveDemoTests.release.xcconfig */,
+				15D1CA3BCF42D1E01CC05C83 /* Pods-OneDriveDemoUITests.debug.xcconfig */,
+				86F0D64EB7A19FA82B6AB35D /* Pods-OneDriveDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		568A7B1906640B625CF8D150 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB92BF13E7489174C8B5E684 /* libPods-OneDriveDemo.a */,
+				746F7B63BE7F6BEA17BC1CAD /* libPods-OneDriveDemoTests.a */,
+				8DAE639971213B76A2867D23 /* libPods-OneDriveDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C05DD4A621AE6A7C005FE23A = {
+			isa = PBXGroup;
+			children = (
+				C05DD4B121AE6A7C005FE23A /* OneDriveDemo */,
+				C05DD4CA21AE6A7E005FE23A /* OneDriveDemoTests */,
+				C05DD4D521AE6A7E005FE23A /* OneDriveDemoUITests */,
+				C05DD4B021AE6A7C005FE23A /* Products */,
+				15EA3688B6817D8A4F856A4D /* Pods */,
+				568A7B1906640B625CF8D150 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C05DD4B021AE6A7C005FE23A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C05DD4AF21AE6A7C005FE23A /* OneDriveDemo.app */,
+				C05DD4C721AE6A7E005FE23A /* OneDriveDemoTests.xctest */,
+				C05DD4D221AE6A7E005FE23A /* OneDriveDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C05DD4B121AE6A7C005FE23A /* OneDriveDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C05DD4B221AE6A7C005FE23A /* AppDelegate.h */,
+				C05DD4B321AE6A7C005FE23A /* AppDelegate.m */,
+				C05DD4B521AE6A7D005FE23A /* ViewController.h */,
+				C05DD4B621AE6A7D005FE23A /* ViewController.m */,
+				C0F9D21321BE5884001E283C /* textViewVC.h */,
+				C0F9D21421BE5884001E283C /* textViewVC.m */,
+				C05DD4B821AE6A7D005FE23A /* Main.storyboard */,
+				C05DD4BB21AE6A7E005FE23A /* Assets.xcassets */,
+				C05DD4BD21AE6A7E005FE23A /* LaunchScreen.storyboard */,
+				C05DD4C021AE6A7E005FE23A /* Info.plist */,
+				C05DD4C121AE6A7E005FE23A /* main.m */,
+			);
+			path = OneDriveDemo;
+			sourceTree = "<group>";
+		};
+		C05DD4CA21AE6A7E005FE23A /* OneDriveDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C05DD4CB21AE6A7E005FE23A /* OneDriveDemoTests.m */,
+				C05DD4CD21AE6A7E005FE23A /* Info.plist */,
+			);
+			path = OneDriveDemoTests;
+			sourceTree = "<group>";
+		};
+		C05DD4D521AE6A7E005FE23A /* OneDriveDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C05DD4D621AE6A7E005FE23A /* OneDriveDemoUITests.m */,
+				C05DD4D821AE6A7E005FE23A /* Info.plist */,
+			);
+			path = OneDriveDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C05DD4AE21AE6A7C005FE23A /* OneDriveDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C05DD4DB21AE6A7E005FE23A /* Build configuration list for PBXNativeTarget "OneDriveDemo" */;
+			buildPhases = (
+				D938DC153246C18BD02A118A /* [CP] Check Pods Manifest.lock */,
+				C05DD4AB21AE6A7C005FE23A /* Sources */,
+				C05DD4AC21AE6A7C005FE23A /* Frameworks */,
+				C05DD4AD21AE6A7C005FE23A /* Resources */,
+				894E6A532350C5795A292206 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneDriveDemo;
+			productName = OneDriveDemo;
+			productReference = C05DD4AF21AE6A7C005FE23A /* OneDriveDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C05DD4C621AE6A7E005FE23A /* OneDriveDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C05DD4DE21AE6A7E005FE23A /* Build configuration list for PBXNativeTarget "OneDriveDemoTests" */;
+			buildPhases = (
+				315D5E05E345D533EB6226DE /* [CP] Check Pods Manifest.lock */,
+				C05DD4C321AE6A7E005FE23A /* Sources */,
+				C05DD4C421AE6A7E005FE23A /* Frameworks */,
+				C05DD4C521AE6A7E005FE23A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C05DD4C921AE6A7E005FE23A /* PBXTargetDependency */,
+			);
+			name = OneDriveDemoTests;
+			productName = OneDriveDemoTests;
+			productReference = C05DD4C721AE6A7E005FE23A /* OneDriveDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C05DD4D121AE6A7E005FE23A /* OneDriveDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C05DD4E121AE6A7E005FE23A /* Build configuration list for PBXNativeTarget "OneDriveDemoUITests" */;
+			buildPhases = (
+				80607C39613DCA82D3752C4E /* [CP] Check Pods Manifest.lock */,
+				C05DD4CE21AE6A7E005FE23A /* Sources */,
+				C05DD4CF21AE6A7E005FE23A /* Frameworks */,
+				C05DD4D021AE6A7E005FE23A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C05DD4D421AE6A7E005FE23A /* PBXTargetDependency */,
+			);
+			name = OneDriveDemoUITests;
+			productName = OneDriveDemoUITests;
+			productReference = C05DD4D221AE6A7E005FE23A /* OneDriveDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C05DD4A721AE6A7C005FE23A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "圣光";
+				TargetAttributes = {
+					C05DD4AE21AE6A7C005FE23A = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					C05DD4C621AE6A7E005FE23A = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C05DD4AE21AE6A7C005FE23A;
+					};
+					C05DD4D121AE6A7E005FE23A = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C05DD4AE21AE6A7C005FE23A;
+					};
+				};
+			};
+			buildConfigurationList = C05DD4AA21AE6A7C005FE23A /* Build configuration list for PBXProject "OneDriveDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C05DD4A621AE6A7C005FE23A;
+			productRefGroup = C05DD4B021AE6A7C005FE23A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C05DD4AE21AE6A7C005FE23A /* OneDriveDemo */,
+				C05DD4C621AE6A7E005FE23A /* OneDriveDemoTests */,
+				C05DD4D121AE6A7E005FE23A /* OneDriveDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C05DD4AD21AE6A7C005FE23A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C05DD4BF21AE6A7E005FE23A /* LaunchScreen.storyboard in Resources */,
+				C05DD4BC21AE6A7E005FE23A /* Assets.xcassets in Resources */,
+				C05DD4BA21AE6A7D005FE23A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C05DD4C521AE6A7E005FE23A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C05DD4D021AE6A7E005FE23A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		315D5E05E345D533EB6226DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OneDriveDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80607C39613DCA82D3752C4E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OneDriveDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		894E6A532350C5795A292206 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-OneDriveDemo/Pods-OneDriveDemo-resources.sh",
+				"${PODS_ROOT}/ADAL/ADALiOS/ADALiOS/ADAL_iPad_Storyboard.storyboard",
+				"${PODS_ROOT}/ADAL/ADALiOS/ADALiOS/ADAL_iPhone_Storyboard.storyboard",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ADAL_iPad_Storyboard.storyboardc",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ADAL_iPhone_Storyboard.storyboardc",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OneDriveDemo/Pods-OneDriveDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D938DC153246C18BD02A118A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OneDriveDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C05DD4AB21AE6A7C005FE23A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C05DD4B721AE6A7D005FE23A /* ViewController.m in Sources */,
+				C0F9D21521BE5884001E283C /* textViewVC.m in Sources */,
+				C05DD4C221AE6A7E005FE23A /* main.m in Sources */,
+				C05DD4B421AE6A7C005FE23A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C05DD4C321AE6A7E005FE23A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C05DD4CC21AE6A7E005FE23A /* OneDriveDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C05DD4CE21AE6A7E005FE23A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C05DD4D721AE6A7E005FE23A /* OneDriveDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C05DD4C921AE6A7E005FE23A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C05DD4AE21AE6A7C005FE23A /* OneDriveDemo */;
+			targetProxy = C05DD4C821AE6A7E005FE23A /* PBXContainerItemProxy */;
+		};
+		C05DD4D421AE6A7E005FE23A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C05DD4AE21AE6A7C005FE23A /* OneDriveDemo */;
+			targetProxy = C05DD4D321AE6A7E005FE23A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C05DD4B821AE6A7D005FE23A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C05DD4B921AE6A7D005FE23A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C05DD4BD21AE6A7E005FE23A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C05DD4BE21AE6A7E005FE23A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C05DD4D921AE6A7E005FE23A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C05DD4DA21AE6A7E005FE23A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C05DD4DC21AE6A7E005FE23A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49C1A91FCC8FF5BCF0192663 /* Pods-OneDriveDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AW9VM5JGA3;
+				INFOPLIST_FILE = OneDriveDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lazyloading.OneDriveDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C05DD4DD21AE6A7E005FE23A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88BB009CC232F5C9B4875147 /* Pods-OneDriveDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AW9VM5JGA3;
+				INFOPLIST_FILE = OneDriveDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lazyloading.OneDriveDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C05DD4DF21AE6A7E005FE23A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 893B7A5E50D4431C46C10DAC /* Pods-OneDriveDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AW9VM5JGA3;
+				INFOPLIST_FILE = OneDriveDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lazyloading.OneDriveDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OneDriveDemo.app/OneDriveDemo";
+			};
+			name = Debug;
+		};
+		C05DD4E021AE6A7E005FE23A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67214AAEACFC89858B96023D /* Pods-OneDriveDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AW9VM5JGA3;
+				INFOPLIST_FILE = OneDriveDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lazyloading.OneDriveDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OneDriveDemo.app/OneDriveDemo";
+			};
+			name = Release;
+		};
+		C05DD4E221AE6A7E005FE23A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15D1CA3BCF42D1E01CC05C83 /* Pods-OneDriveDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AW9VM5JGA3;
+				INFOPLIST_FILE = OneDriveDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lazyloading.OneDriveDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OneDriveDemo;
+			};
+			name = Debug;
+		};
+		C05DD4E321AE6A7E005FE23A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86F0D64EB7A19FA82B6AB35D /* Pods-OneDriveDemoUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AW9VM5JGA3;
+				INFOPLIST_FILE = OneDriveDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lazyloading.OneDriveDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OneDriveDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C05DD4AA21AE6A7C005FE23A /* Build configuration list for PBXProject "OneDriveDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C05DD4D921AE6A7E005FE23A /* Debug */,
+				C05DD4DA21AE6A7E005FE23A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C05DD4DB21AE6A7E005FE23A /* Build configuration list for PBXNativeTarget "OneDriveDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C05DD4DC21AE6A7E005FE23A /* Debug */,
+				C05DD4DD21AE6A7E005FE23A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C05DD4DE21AE6A7E005FE23A /* Build configuration list for PBXNativeTarget "OneDriveDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C05DD4DF21AE6A7E005FE23A /* Debug */,
+				C05DD4E021AE6A7E005FE23A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C05DD4E121AE6A7E005FE23A /* Build configuration list for PBXNativeTarget "OneDriveDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C05DD4E221AE6A7E005FE23A /* Debug */,
+				C05DD4E321AE6A7E005FE23A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C05DD4A721AE6A7C005FE23A /* Project object */;
+}
